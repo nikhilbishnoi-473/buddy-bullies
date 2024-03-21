@@ -79,9 +79,32 @@
 .pt-106{
     padding-top: 106px;
 }
-
+.para_6{
+    max-width: 388px;
+}
+.op-60{
+    opacity: 60%;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pt-173{
+    padding-top: 173px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-6{
+padding-top: 6px;
+}
 .pt-48 {
     padding-top: 48px;
+}
+.gap-12{
+    gap: 12px;
 }
 
 .before_line {
@@ -265,7 +288,10 @@ margin-top: 26px;
  .accordion-button:not(.collapsed)::after{
     background-image: url(../svg/up.svg);
  }
-
+.transition_1:hover{
+    transform: translateY(-10px);
+    transition: all 400ms linear;
+}
 .card {
     
  
@@ -340,6 +366,7 @@ margin-top: 26px;
   .right_1::after {
     left: -25px;
   }
+  
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 768px) {
