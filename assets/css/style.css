@@ -20,6 +20,38 @@
     transform-origin: bottom;
     /* width: 200px; */
 }
+.max-width_pre{
+    height: 145px;
+    width: 117px;
+}
+ 
+.image {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--black);
+    /* background-image: url(./accets/images/image\ 14.png); */
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.z_40 {
+    z-index: 70 !important;
+}
+.bounce {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 #myBtn {
     display: none;
     position: fixed;
