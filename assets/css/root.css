@@ -163,7 +163,13 @@
 }
 @media (max-width: 768px) {
     :root{ 
-        --fs-70: 35px;
+        --fs-70: 34px;
         --line-86: 40px;
+        --fs-20: 15px;
+        --line-41: 23px;
+         --fs-50: 30px;
+         --line-68: 40px;
+         --fs-30: 20px;
+         --line-40: 30px;
     }
 }
