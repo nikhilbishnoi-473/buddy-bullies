@@ -76,6 +76,9 @@
 .mint_your {
     max-width: 338px;
 }
+.pt-106{
+    padding-top: 106px;
+}
 
 .pt-48 {
     padding-top: 48px;
@@ -148,6 +151,16 @@ padding-top: 32px;
 }
 .pb-42{
     padding-bottom: 42px;
+}
+.bg_img{
+    background-image: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--blue);
+}
+.pt-221{
+    padding-top: 221px;
 }
 .box_shadow:hover {
     transition: all 400ms linear;
