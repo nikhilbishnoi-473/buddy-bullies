@@ -22,3 +22,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+        
+      
+const mytimeout = setTimeout(layout,3000)
+function  layout()
+{
+    document.getElementById("preloader").classList.remove("image")
+    document.getElementById("img").style.display ="none"
+}

@@ -10,7 +10,16 @@
     text-decoration: none !important;
     /* outline: 1px solid red !important; */
 }
-
+.first_box {
+    align-self: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* background-color: #F44336; */
+    /* height: 200px; */
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    /* width: 200px; */
+}
 #myBtn {
     display: none;
     position: fixed;
@@ -377,10 +386,10 @@ padding-left: 24px;
   .timeline::after {
     content: "";
     position: absolute;
-    width: 43px;
-    height: 43px;
-    right: -20px;
-   background-image: url(../svg/timeline-circle.svg);
+    width: 64px;
+    height: 64px;
+    right: -30px;
+   background-image: url(../images/Slice1.png);
     top: 0px;
     border-radius: 50%;
     z-index: 1;
@@ -432,7 +441,7 @@ padding-left: 24px;
   }
   /* Fix the circle for containers on the right side */
   .right_1::after {
-    left: -25px;
+    left: -35px;
   }
   .elips_3{
     top: 0%;
@@ -444,7 +453,26 @@ padding-left: 24px;
     right: 0%;
     z-index: 1;
   }
-  
+  .box_section_1{
+    max-width: 1920px;
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(180deg, rgba(0, 10, 26, 0) 0%, #000A1A 100%);
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 768px) {
     /* Place the timelime to the left */
@@ -470,7 +498,7 @@ padding-left: 24px;
     /* Make sure all circles are at the same spot */
     .left::after,
     .right_1::after {
-      left: 7px;
+      left: -3px;
     }
   
     .left::before {
@@ -505,6 +533,9 @@ padding-left: 24px;
     }
     .pt-131{
         padding-top: 70px;
+    }
+    .pt-100{
+        padding-top: 50px;
     }
   }
 
