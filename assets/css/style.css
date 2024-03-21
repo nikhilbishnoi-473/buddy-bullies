@@ -439,7 +439,11 @@ padding-left: 24px;
     left: 0;
     z-index: 1;
   }
-  
+  .elips_4{
+    top: -24%;
+    right: 0%;
+    z-index: 1;
+  }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 768px) {

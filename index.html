@@ -39,7 +39,7 @@
                 </nav>
             </div>
         </div>
-        <div class="container max-w-1326  min-vh-100 d-flex align-items-center">
+        <div class="container max-w-1326  min-vh-100 d-flex align-items-center" id="home">
             <div class="d-flex flex-column ">
                 <h1 class="poppins fw-400 fs-70 line-86 white mb-0 heading_1">Vitae nunc, <span class="fw-700">blandit a
                         odio</span></h1>
@@ -50,7 +50,7 @@
             </div>
         </div>
     </header>
-    <section class="bg_color mt_-2 d -none position-relative overflow-hidden   ">
+    <section class="bg_color mt_-2 d -none position-relative overflow-hidden   " id="about">
         <div class="container max-w-1326 ">
             <div class="row pt-26 z-3">
                 <div class="col-lg-6 col-12">
@@ -145,13 +145,13 @@
             <img src="./assets/images/Ellipse2.png" alt="Ellipse2">
         </div>
     </section>
-    <section class="bg_color mt_-2 d -none position-relative overflow-hidden">
+    <section class="bg_color mt_-2 d -none position-relative overflow-hidden" id="issue">
         <div class="container max-w-1326">
             <div class="pt-131 d-flex justify-content-center">
                 <h3 class="poppins fw-600 fs-50 line-68 mb-0 white z-3">Roadmap</h3>
             </div>
             <div class="  pt-63">
-                <div class="main-timeline">
+                <div class="main-timeline z-3">
 
                     <div class="timeline right_1">
                         <div class="card">
@@ -193,20 +193,20 @@
             <img src="./assets/svg/elips3.svg" alt="svg">
         </div>
     </section>
-    <section class="bg_color mt_-2 d -none">
+    <section class="bg_color mt_-2 d -none position-relative" id="schol">
         <div class="container max-w-1326">
             <div class="d-flex justify-content-center text-center pt-141 ">
                 <div class="d-flex flex-column">
-                    <h3 class="para_3 poppins white  fw-500 fs-30 line-45 mb-0 ">And this just the begining , the team
+                    <h3 class="para_3 poppins white z-3  fw-500 fs-30 line-45 mb-0 ">And this just the begining , the team
                         is working on
                         more suprises for our community. Buddybullies stronger together !!</h3>
                     <h4 class="pt-110 poppins fw-600 fs-50 line-68 mb-0 white ">FAQs</h4>
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-21">
-                <div class="accordian_wid w-100">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
+                <div class="accordian_wid w-100 z-3">
+                    <div class="accordion accordion-flush " id="accordionFlushExample">
+                        <div class="accordion-item z-3">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed white fw-500 fs-20  line-24 montse"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
@@ -302,8 +302,11 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute elips_4 d-none d-lg-block">
+            <img src="./assets/svg/elips4.svg" alt="svg">
+        </div>
     </section>
-    <section class="bg_img mt_-2 d -none">
+    <footer class="bg_img mt_-2 d -none" id="curric">
         <div class=" container max-w-1326">
             <div class="d-flex justify-content-center pt-221">
                 <h3 class="poppins fw-600 fs-50 line-62 mb-0 white ">JOIN US</h3>
@@ -314,17 +317,17 @@
                     <p class="mb-0 poppins fw-400 fs-16 line-24 white para_6 op-60 pt-21">Aenean arcu sed rhoncus sapien
                         euismod cursus morbi lacus, blandit. Placerat tortor duis fames cras pellentesque dui adipiscing
                         neque gravida. Sociis neque consectetur id quis pharetra.</p>
-                    <h3 class="poppins mb-0 fw-400 fs-16 line-24 white pt-20 pb-50">Email@gmail.com</h3>
+                    <h3 class="  pt-20 pb-50"> <a href="mailto:?subject=test&body=this is a test" class="poppins mb-0 fw-400 fs-16 line-24 white">Email@gmail.com</a></h3>
                 </div>
                 <div class="col-lg-6 ">
                     <div class="row pb_20">
                         <div class="col-7 justify-content-lg-end d-flex">
                             <div class="d-flex flex-column">
                                 <ul class="pt-173 pb_ml_0">
-                                    <li class=""> <a href="" class="poppins fw-500 fs-16 line-24 white">Resources</a></li>
-                                    <li class="pt-10"><a href="" class="poppins fw-400 fs-14 line-19 white">Roadmap</a></li>
-                                    <li class="pt-6"><a href="" class="poppins fw-400 fs-14 line-19 white">FAQs</a></li> 
-                                    <li class="pt-6"><a href="" class="poppins fw-400 fs-14 line-19 white">Mint your Bully</a></li>
+                                    <li class=""> <a href="#home" class="poppins underline fw-500 fs-16 line-24 white">Resources</a></li>
+                                    <li class="pt-10"><a href="#about" class="poppins underline fw-400 fs-14 line-19 white">Roadmap</a></li>
+                                    <li class="pt-6"><a href="#issue" class="poppins underline fw-400 fs-14 line-19 white">FAQs</a></li> 
+                                    <li class="pt-6"><a href="#" class="poppins fw-400 underline fs-14 line-19 white">Mint your Bully</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -348,7 +351,7 @@
         <img src="./assets/svg/top-arrow-icon.svg" alt="arrow">
         </button>
 
-    </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
