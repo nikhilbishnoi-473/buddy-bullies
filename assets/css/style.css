@@ -11,6 +11,28 @@
     /* outline: 1px solid red !important; */
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 49;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /* color: white; */
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    transition: all 400ms linear;
+  }
+  #myBtn:hover{
+    background-color: var(--btn_color);
+    box-shadow: 0px 0px 20px 0px #E9CD96;
+  }
+ 
 .underline {
     position: relative;
 }
@@ -331,9 +353,16 @@ margin-top: 26px;
     transform: translateY(-10px);
     transition: all 400ms linear;
 }
+.pl-24{
+padding-left: 24px;
+}
+.pr-24{
+    padding-right: 24px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
 .card {
-    
- 
      --bs-card-bg: transparent;
 }
   
@@ -405,6 +434,11 @@ margin-top: 26px;
   .right_1::after {
     left: -25px;
   }
+  .elips_3{
+    top: 0%;
+    left: 0;
+    z-index: 1;
+  }
   
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -440,12 +474,33 @@ margin-top: 26px;
     }
     .main-timeline::after {
         
-        bottom: 24%;
+        bottom: 30%;
         
       }
     /* Make all right containers behave like the left ones */
     .right_1 {
       left: 0%;
+    }
+    .pt-221{
+        padding-top: 25px;
+    }
+    .pt-106{
+        padding-top: 25px;
+    }
+    .pt-173{
+        padding-top: 10px;
+    }
+    .pt-141{
+        padding-top: 30px;
+    }
+    .pt-121{
+        padding-top: 75px;
+    }
+    .pt-110{
+        padding-top: 36px;
+    }
+    .pt-131{
+        padding-top: 70px;
     }
   }
 
@@ -551,4 +606,22 @@ margin-top: 26px;
     .mt-46{
         margin-top: 24px;
     }
+    .mb-146{
+        margin-bottom: 0px;
+      }
+      .mb-212{
+        margin-bottom: 0;
+      }
+      .pl-24{
+        padding-left: 0px;
+        }
+        .pr-24{
+            padding-right: 0px;
+        }
+        .pb-24{
+            padding-bottom: 0px;
+        }
+        .pb_20{
+            padding-bottom: 20px;
+        }
 }
