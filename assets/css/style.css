@@ -386,6 +386,7 @@ margin-top: 26px;
  .accordion-button::after{
     background-image: url(../svg/accordianicon.svg);
     transform: scale(.7) !important;
+    margin-top: 10px;
  }
  .accordion-button:not(.collapsed)::after{
     background-image: url(../svg/up.svg);
@@ -421,6 +422,7 @@ padding-left: 24px;
     width: 64px;
     height: 64px;
     right: -30px;
+    cursor: pointer;
    background-image: url(../images/Slice1.png);
     top: 0px;
     border-radius: 50%;
@@ -451,7 +453,7 @@ padding-left: 24px;
     right: 30px;
     /* border: medium solid white; */
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent var(--white);
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -524,7 +526,7 @@ padding-left: 24px;
       left: 60px;
       /* border: medium solid white; */
       border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
+      border-color: transparent var(--white) transparent transparent;
     }
   
     /* Make sure all circles are at the same spot */
@@ -606,6 +608,7 @@ padding-left: 24px;
         width: 35px;
         background-color: var(--white);
         display: block;
+        border-radius: 20px;
     }
 
     .menu span:nth-child(2) {
@@ -613,6 +616,7 @@ padding-left: 24px;
         width: 35px;
         background-color: var(--white);
         display: block;
+        border-radius: 20px;
     }
 
     .menu span:nth-child(3) {
@@ -620,6 +624,7 @@ padding-left: 24px;
         width: 35px;
         background-color: var(--white);
         display: block;
+        border-radius: 20px;
     }
 
     .menu span {
@@ -640,6 +645,7 @@ padding-left: 24px;
     .cross span:nth-child(3) {
         transform: rotate(-43deg) translateY(-15px);
         transition: 300ms linear;
+       
     }
 
     .right {
