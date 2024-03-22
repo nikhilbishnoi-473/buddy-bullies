@@ -11,14 +11,6 @@
     --fs-50: 50px;
     --fs-70: 70px;
 
-
-
-
-
-
-
-
-
     /* font-weight */
 
     --fw-400: 400;
@@ -45,18 +37,6 @@
     --line-86: 86.8px;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     /* color */
 
     --black: #000000;
@@ -65,6 +45,11 @@
     --lightblue: #031227;
     --btn_color: #001D49;
     --shadow_yellow: #FFFF01;
+    --scroll_bar: #b30000;
+
+}
+.scroll_bar{
+    color: var(--scroll_bar);
 }
 
 .shadow_yellow {
