@@ -46,9 +46,15 @@
     --btn_color: #001D49;
     --shadow_yellow: #FFFF01;
     --scroll_bar: #b30000;
+    --shadow: #00284A;
 
 }
-.scroll_bar{
+
+.shadow {
+    color: var(--shadow);
+}
+
+.scroll_bar {
     color: var(--scroll_bar);
 }
 
